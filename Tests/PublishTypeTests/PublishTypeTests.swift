@@ -1,5 +1,5 @@
 //
-//  PublishTypeError.swift
+//  PublishTypeTests.swift
 //  BrightDigit
 //
 //  Created by Leo Dion.
@@ -27,30 +27,14 @@
 //  OTHER DEALINGS IN THE SOFTWARE.
 //
 
-import Foundation
-@preconcurrency import Publish
+import Testing
 
-public enum PublishTypeError: Error, LocalizedError {
-  case missingContent(description: String)
-  case missingItemField(field: String, path: String)
+@testable import PublishType
 
-  public var errorDescription: String? {
-    switch self {
-    case .missingContent(let description):
-      return "Missing content for location: \(description)"
-    case .missingItemField(let field, let path):
-      return "Missing field \(field) from \(path)"
-    }
-  }
-
-  public static func missingContentFor(_ location: some Location) -> Self {
-    .missingContent(description: String(describing: location))
-  }
-
-  public static func missingField(_ field: some MissingField, _ item: some AnyItem) -> Self {
-    .missingItemField(
-      field: String(describing: field),
-      path: String(describing: item.path)
-    )
+/// Placeholder suite so the package ships a test target; replace with real coverage.
+@Suite internal struct PublishTypeTests {
+  /// Smoke test confirming the module links and the suite runs.
+  @Test internal func moduleLoads() {
+    #expect(Bool(true))
   }
 }
