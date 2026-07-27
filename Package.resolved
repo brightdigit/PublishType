@@ -1,13 +1,13 @@
 {
-  "originHash" : "87fff0dfcaebce0cdf1fbe5241af6a1f4cc07e972c2f1e28cd34b28e60025744",
+  "originHash" : "23447512a7c4f814a4c18e603db5cbfb719180379988ec886b2f240ec2f94361",
   "pins" : [
     {
       "identity" : "files",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/brightdigit/Files.git",
       "state" : {
-        "branch" : "brightdigit-com-260406",
-        "revision" : "7ee69ba0bfc0d2c771458ea17ee4933545e896a8"
+        "branch" : "main",
+        "revision" : "6638e7c3de269443e784b5fd60bf4f6a1f33e36e"
       }
     },
     {
@@ -15,8 +15,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/brightdigit/Ink.git",
       "state" : {
-        "branch" : "brightdigit-com-260406",
-        "revision" : "443d80e352ec3cdd07eed54bd84a9789378d8665"
+        "branch" : "main",
+        "revision" : "7f5072820db01c259b4470a6117e759358bcf986"
       }
     },
     {
@@ -24,8 +24,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/brightdigit/Plot.git",
       "state" : {
-        "branch" : "brightdigit-com-260406",
-        "revision" : "c357a8a5303159900017176a1450f6b825e6fb93"
+        "branch" : "main",
+        "revision" : "e966c8779e955408d021a0b8be9c80a42b942ff2"
       }
     },
     {
@@ -33,8 +33,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/brightdigit/Publish.git",
       "state" : {
-        "branch" : "brightdigit-com-260406",
-        "revision" : "7118f0a6967a98f3e8e0b69c696be85258504ed2"
+        "branch" : "main",
+        "revision" : "22229e1dd249e5c8e3b6bb0f981c0b45f6f73031"
       }
     },
     {
